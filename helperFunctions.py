@@ -39,7 +39,7 @@ class OptionParser(optparse.OptionParser):
 
         # Assumes the option's 'default' is set to None!
         if getattr(self.values, option.dest) is None:
-            print "%s option not supplied" % option
+            print ("%s option not supplied" % option)
             self.print_help()
             sys.exit(1)
 
@@ -124,12 +124,12 @@ def median(vals):
 def runCmd(cmd_str, which_shell, pCommand=False):
     try:
         if pCommand:
-            print cmd_str
+            print (cmd_str)
 
         p = Popen(cmd_str, shell=True, executable=which_shell)
         sts = os.waitpid(p.pid,0)
     except:
-        print "Something wrong with: %s" % cmd_str
+        print ("Something wrong with: %s" % cmd_str)
         sys.exit(1)
         
 def getShannonIndex(pos2countDict, totalCount):
@@ -231,17 +231,7 @@ def updateDictOfSets(d, key, item):
         d[key] = set([item])
 
 def waitForChildren(children_processes, sleeptime=5):
-    ctr = 0
-    num_children = len(children_processes)
-    while 1:
-        for child in children_processes:
-            if not child.poll() is None:
-                ctr += 1
-            sys.stdout.flush()
-
-        if ctr == num_children:
-            break
-
+    while any(child.poll() is None for child in children_processes):
         time.sleep(sleeptime)
         
 
