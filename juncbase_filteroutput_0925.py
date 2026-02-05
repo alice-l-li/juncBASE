@@ -265,7 +265,7 @@ def collapse_groups_write_out(outprefix, header, einfotoepos):
                 out.write('\t'.join([str(c), gene_id, feature_id] + [str(x) for x in exc]) + '\n')
                 c += 1
 
-                outpsi.write('\t'.join([gene_id] + myevent[-1][:11] + [str(round(100*x, 2)) if x != 'NA' else x for x in psi]))
+                outpsi.write('\t'.join([gene_id] + myevent[-1][:11] + [str(round(100*x, 2)) if x != 'NA' else x for x in psi]) + '\n')
 
 
 
