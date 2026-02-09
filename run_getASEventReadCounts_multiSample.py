@@ -409,7 +409,7 @@ def main():
                     os.system(cmd)
                 else:
                     print cmd
-                    Popen(cmd, shell=True, executable=SHELL)
+                    Popen(cmd, shell=True)
 
     else:
         ctr = 0
@@ -500,7 +500,7 @@ def main():
                 os.system(cmd)
             else:
                 print cmd
-                Popen(cmd, shell=True, executable=SHELL)
+                Popen(cmd, shell=True)
             
         
 			

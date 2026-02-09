@@ -14,4 +14,4 @@ dependencies:
   - matplotlib
   - bioconductor-limma
   - bioconductor-DirichletMultinomial
-  - sqlite3
+  - sqlite

@@ -184,7 +184,7 @@ def main():
             print cmd
 #            runCmd(cmd, SHELL, True)
             sys.stdout.flush()
-            p = Popen(cmd, shell=True, executable=SHELL)
+            p = Popen(cmd, shell=True)
             children.append(p)
 
             waitForChildren(children)
@@ -193,7 +193,7 @@ def main():
         else:
             print cmd
             sys.stdout.flush()
-            p = Popen(cmd, shell=True, executable=SHELL)
+            p = Popen(cmd, shell=True)
             children.append(p)
 
    

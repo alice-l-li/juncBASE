@@ -154,7 +154,7 @@ def main():
             os.system(cmd)
         else:
             print cmd
-            Popen(cmd, shell=True, executable=SHELL)
+            Popen(cmd, shell=True)
 
     sys.exit(0)
 

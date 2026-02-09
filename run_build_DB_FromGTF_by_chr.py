@@ -279,7 +279,7 @@ def main():
             os.system(cmd)                                       
         else:
             print cmd                                       
-            Popen(cmd, shell=True, executable=SHELL)     
+            Popen(cmd, shell=True)     
     
     # Remove temp files, but first check that exons are returned from the same
     # chromosome in the database

@@ -140,7 +140,7 @@ def main():
             print cmd
         else:
             print cmd
-            Popen(cmd, shell=True, executable=SHELL) 
+            Popen(cmd, shell=True) 
 
     # Print out the prefix that should be used as a reminder
     print "Output files were created with the following prefix: %s" % out_prefix

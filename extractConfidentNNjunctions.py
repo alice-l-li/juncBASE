@@ -109,7 +109,7 @@ def main():
         if file_counter % NUM_PROC == 0:
             runCmd(cmd, SHELL)
         else:
-            p = Popen(cmd, shell=True, executable=SHELL)
+            p = Popen(cmd, shell=True)
    
      
 			
