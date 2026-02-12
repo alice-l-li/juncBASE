@@ -43,8 +43,6 @@ N_RGB_STR = "0,60,120"
 # Corresponds to reads equally split between 2 different offsets.
 DEF_CONFIDENCE = 1.0
 
-SHELL = "/bin/tcsh"
-
 MAX_CHAR = 60
 
 CIGAR_OPER = {0:"M",

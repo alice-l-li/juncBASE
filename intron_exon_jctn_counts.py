@@ -25,7 +25,6 @@ if not os.path.exists(COUNTING_SCRIPT):
     print "ERROR: coordReadCounts.py needs to be in the same directory."
     sys.exit(1)
 
-SHELL = "/bin/tcsh"
 #################
 # END CONSTANTS #
 #################

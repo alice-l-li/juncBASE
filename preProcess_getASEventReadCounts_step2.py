@@ -25,7 +25,6 @@ PSEUDO_COUNT = 3
 DEF_CONFIDENCE = 3
 DEF_JCN_OVERHANG = 50
 
-SHELL = "/bin/tcsh"
 #################
 # END CONSTANTS #
 #################

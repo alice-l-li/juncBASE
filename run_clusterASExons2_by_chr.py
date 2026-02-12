@@ -28,7 +28,6 @@ if not os.path.exists(SCRIPT):
     print "ERROR: clusterASExons2.py needs to be in the same directory."
     sys.exit(1)
 
-SHELL = "/bin/tcsh"
 #################
 # END CONSTANTS #
 #################

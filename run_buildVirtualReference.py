@@ -25,8 +25,6 @@ if not os.path.exists(SCRIPT):
 
 DEF_THRESH = 25
 DEF_NUM_PROCESSES = 2
-
-SHELL = "/bin/tcsh"
 #################
 # END CONSTANTS #
 #################

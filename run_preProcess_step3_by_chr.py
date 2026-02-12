@@ -18,8 +18,6 @@ from helperFunctions import runCmd, runLSF
 #############
 # CONSTANTS #
 #############
-SHELL = "/bin/tcsh"
-
 BIN_DIR = os.path.realpath(os.path.dirname(sys.argv[0]))
 SCRIPT = "%s/preProcess_getASEventReadCounts_step3.py" % BIN_DIR
 if not os.path.exists(SCRIPT):

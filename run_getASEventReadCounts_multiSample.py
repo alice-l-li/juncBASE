@@ -29,8 +29,6 @@ if not os.path.exists(SCRIPT):
     print "ERROR: getASEventReadCounts.py needs to be in the same directory."
     sys.exit(1)
 
-SHELL = "/bin/tcsh"
-
 DEF_NUM_PROCESSES = 2
 
 HOST = "localhost"

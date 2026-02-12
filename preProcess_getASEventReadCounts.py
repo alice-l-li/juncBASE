@@ -47,8 +47,6 @@ DEF_CONFIDENCE = 1.0
 # of bases in the resulting alignments
 DEF_BEG_JCN_OVERHANG = 25
 
-SHELL = "/bin/tcsh"
-
 MAX_CHAR = 60
 
 CIGAR_OPER = {0:"M",

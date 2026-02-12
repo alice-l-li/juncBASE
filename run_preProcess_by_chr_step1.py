@@ -26,7 +26,6 @@ BIN_DIR = os.path.realpath(os.path.dirname(sys.argv[0]))
 SCRIPT = "%s/preProcess_getASEventReadCounts_by_chr.py" % BIN_DIR
 
 DEF_NUM_PROCESSES = 1
-SHELL = "/bin/tcsh"
 #################
 # END CONSTANTS #
 #################

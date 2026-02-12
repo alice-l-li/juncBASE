@@ -28,7 +28,6 @@ IE_SCRIPT = "%s/intron_exon_jctn_counts.py" % BIN_DIR
 if not os.path.exists(IE_SCRIPT):
     print "ERROR: intron_exon_jctn_counts.py needs to be in the same directory."
     sys.exit(1)
-SHELL = "/bin/tcsh"
 #################
 # END CONSTANTS #
 #################

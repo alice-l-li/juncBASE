@@ -19,7 +19,6 @@ from helperFunctions import runCmd
 #############
 # CONSTANTS #
 #############
-SHELL = "/bin/tcsh"
 
 NUM_GENOME_READS = 10
 #################

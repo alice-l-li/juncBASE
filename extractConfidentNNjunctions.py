@@ -23,7 +23,6 @@ SCRIPT = os.path.realpath("./getSpecificSequences.py")
 if not os.path.exists(SCRIPT):
     print "ERROR: getSpecificSequences.py needs to be in the same directory."
     sys.exit(1)
-SHELL = "/bin/tcsh"
 
 NUM_PROC = 20
 #################
